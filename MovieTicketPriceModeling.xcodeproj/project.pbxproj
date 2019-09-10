@@ -14,6 +14,10 @@
 		C1F9D86623279FAA00E2A297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F9D86423279FAA00E2A297 /* LaunchScreen.storyboard */; };
 		C1F9D87123279FAA00E2A297 /* MovieTicketPriceModelingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F9D87023279FAA00E2A297 /* MovieTicketPriceModelingTests.swift */; };
 		C1F9D87C23279FAA00E2A297 /* MovieTicketPriceModelingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F9D87B23279FAA00E2A297 /* MovieTicketPriceModelingUITests.swift */; };
+		C1F9D88B2327A47000E2A297 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F9D88A2327A47000E2A297 /* Person.swift */; };
+		C1F9D88E2327A4BE00E2A297 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F9D88D2327A4BE00E2A297 /* Ticket.swift */; };
+		C1F9D8902327A62200E2A297 /* NormalTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F9D88F2327A62200E2A297 /* NormalTicket.swift */; };
+		C1F9D8922327A77200E2A297 /* NormalSeniorTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F9D8912327A77200E2A297 /* NormalSeniorTicket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		C1F9D87723279FAA00E2A297 /* MovieTicketPriceModelingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieTicketPriceModelingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F9D87B23279FAA00E2A297 /* MovieTicketPriceModelingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTicketPriceModelingUITests.swift; sourceTree = "<group>"; };
 		C1F9D87D23279FAA00E2A297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1F9D88A2327A47000E2A297 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		C1F9D88D2327A4BE00E2A297 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		C1F9D88F2327A62200E2A297 /* NormalTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalTicket.swift; sourceTree = "<group>"; };
+		C1F9D8912327A77200E2A297 /* NormalSeniorTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalSeniorTicket.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		C1F9D85A23279FA900E2A297 /* MovieTicketPriceModeling */ = {
 			isa = PBXGroup;
 			children = (
+				C1F9D8892327A45F00E2A297 /* Model */,
 				C1F9D85B23279FA900E2A297 /* AppDelegate.swift */,
 				C1F9D85D23279FA900E2A297 /* ViewController.swift */,
 				C1F9D85F23279FA900E2A297 /* Main.storyboard */,
@@ -123,6 +132,25 @@
 				C1F9D87D23279FAA00E2A297 /* Info.plist */,
 			);
 			path = MovieTicketPriceModelingUITests;
+			sourceTree = "<group>";
+		};
+		C1F9D8892327A45F00E2A297 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C1F9D88C2327A4B400E2A297 /* Ticket */,
+				C1F9D88A2327A47000E2A297 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1F9D88C2327A4B400E2A297 /* Ticket */ = {
+			isa = PBXGroup;
+			children = (
+				C1F9D88D2327A4BE00E2A297 /* Ticket.swift */,
+				C1F9D88F2327A62200E2A297 /* NormalTicket.swift */,
+				C1F9D8912327A77200E2A297 /* NormalSeniorTicket.swift */,
+			);
+			path = Ticket;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +284,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1F9D88B2327A47000E2A297 /* Person.swift in Sources */,
 				C1F9D85E23279FA900E2A297 /* ViewController.swift in Sources */,
+				C1F9D8922327A77200E2A297 /* NormalSeniorTicket.swift in Sources */,
 				C1F9D85C23279FA900E2A297 /* AppDelegate.swift in Sources */,
+				C1F9D8902327A62200E2A297 /* NormalTicket.swift in Sources */,
+				C1F9D88E2327A4BE00E2A297 /* Ticket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
